@@ -5,43 +5,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Антикварный магазин</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="homePage.css">
 </head>
 
 <body>
-    <header id="header">
-        <ul id="headerContent">
-            <li id="headerTop">
-                <a href="#" class="headerTop__contacts i_geo">г. Алматы, пр. Сейфуллина 452</a>
-                <a href="#" class="headerTop__contacts i_phone">+ 7 (727) 279 48 40</a>
-                <a href="#" class="headerTop__contacts i_mobile">+7 775 607 56 47</a>
-                <a href="#" class="headerTop__contacts i_wa">+7 777 596 79 22</a>
-            </li>
-            <li id="headerbottom">
-                <div class="logo">
-                    <a href="#" class="logoText">Belle Époque</a>
-                </div>
-                <nav id="nav">
-                    <div id="headerBottom__navs">
-                        <div class="headerBottom__navs_wrapper">
-                            <a href="#">Главная</a>
-                            <a href="#">Каталог</a>
-                            <a href="#">О нас</a>
-                            <a href="#">Контакты</a>
-                        </div>
+    <div id="container">
+        <header id="header">
+            <ul id="headerContent">
+                <li id="headerTop">
+                    <a href="#" class="headerTop__contacts i_geo">г. Алматы, пр. Сейфуллина 452</a>
+                    <a href="#" class="headerTop__contacts i_phone">+ 7 (727) 279 48 40</a>
+                    <a href="#" class="headerTop__contacts i_mobile">+7 775 607 56 47</a>
+                    <a href="#" class="headerTop__contacts i_wa">+7 777 596 79 22</a>
+                </li>
 
-                        <div class="headerBottom__func_wrapper">
-                            <a href="" class="headerBottom__func">🔍</a>
-                            <a href="" class="headerBottom__func">🛒</a>
-                            <a href="" class="headerBottom__func">❤️</a>
+                <li id="headerbottom">
+                    <a href="#" class="logoText">Belle Époque</a>
+                    <nav id="nav">
+                        <div id="headerBottom__navs">
+                            <div class="headerBottom__navs_wrapper">
+                                <a href="#" class="headerBottom__navs_items">HOME </a>
+                                <a href="#" class="headerBottom__navs_items">ABOUT</a>
+                                <a href="#" class="headerBottom__navs_items">CATALOG</a>
+                                <a href="#" class="headerBottom__navs_items">SHOP</a>
+                                <a href="#" class="headerBottom__navs_items">BLOG</a>
+                            </div>
                         </div>
+                    </nav>
+                </li>
+            </ul>
+        </header>
+        <div class="wrapper">
+            <section id="blockAboutUs">
+                <div class="blockAboutUs__left">
+
+                    <h1 class="blockAboutUs__left_title title">Every Antique has its class and <span class="pinkBack">History</span></h1>
+                    <p class="blockAboutUs__left_text text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam
+                    </p>
+                    <a href="" class="blockAboutUs__left_button btn">EXPLORE NOW</a>
+                </div>
+
+                <div class="blockAboutUs__rigth">
+                    <div class="phone__wrapper">
+                        <img class="phone phoneTop" src="../images/phone.png" alt="OldPhone">
+                        <img class="phone phoneBack" src="../images/phone.png" alt="OldPhone">
                     </div>
-                </nav>
-            </li>
-        </ul>
-        
-    </header>
+                    <div class="lamp__wrapper">
+                        <img class="lamp lampTop" src="../images/lamp.png" alt="lamp">
+                        <img class="lamp lampBack" src="../images/lampBackround.png" alt="lampBackround">
+                    </div>
+                </div>
+
+            </section>
+            <section id="blockAboutCollection">
+                <div class="blockAboutCollection__left">
+                    <img src="../images/engineBackround.png" alt="backEngine"
+                        class="engine blockAboutCollection__BackImage">
+                    <img src="../images/engine.png" alt="engine" class="engine blockAboutCollection__TopImage">
+                </div>
+                <div class="blockAboutCollection__right">
+                    <h2 class="blockAboutCollection__left_title title">Best Antique collection</h2>
+                    <p class="blockAboutCollection__left_text text">
+                        Lorem ipsum dolor sit amet, consectetur eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    </p>
+                    <div class="wrapperBust">
+                    <a href="" class="blockAboutCollection__left_button btn">EXPLORE NOW</a>
+                    <div class="bust"></div>
+                </div>
+                </div>
+            </section>
+        </div>
+    </div>
 </body>
 
 </html>
