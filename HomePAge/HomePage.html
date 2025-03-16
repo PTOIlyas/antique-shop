@@ -14,7 +14,8 @@
 
 <body>
     <div id="container">
-        <header id="header">
+        <div class="inner-container">
+        <header id="header" class="element-to-animate">
             <ul id="headerContent">
                 <li id="headerTop">
                     <a href="#" class="headerTop__contacts i_geo">г. Алматы, пр. Сейфуллина 452</a>
@@ -40,7 +41,7 @@
             </ul>
         </header>
         <div class="wrapper">
-            <section id="blockAboutUs">
+            <section id="blockAboutUs" class="element-to-animate">
                 <div class="blockAboutUs__left">
 
                     <h1 class="blockAboutUs__left_title title">Every Antique has its class and <span class="pinkBack">History</span></h1>
@@ -64,7 +65,7 @@
                 </div>
 
             </section>
-            <section id="blockAboutCollection">
+            <section id="blockAboutCollection" class="element-to-animate">
                 <div class="blockAboutCollection__left">
                     <img src="../images/engineBackround.png" alt="backEngine"
                         class="engine blockAboutCollection__BackImage">
@@ -76,13 +77,53 @@
                         Lorem ipsum dolor sit amet, consectetur eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     </p>
                     <div class="wrapperBust">
-                    <a href="" class="blockAboutCollection__left_button btn">EXPLORE NOW</a>
+                    <a href="" class="blockAboutCollection__left_button btn">CHECK NOW</a>
                     <div class="bust"></div>
                 </div>
                 </div>
             </section>
+
+            <section id="shopBlock" class="element-to-animate">
+                <div class="shopBlock__left">
+                    <h1 class="shopBlock__left_title title">Collect the <span class="pinkBack">unique</span> Antiques you love</h1>
+                    <p class="shopBlock__left_text text">
+                        Lorem ipsum dolor sit amet, consectetur eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    </p>
+                    <a href="#" class="shopBlock__left_button btn">SHOP NOW</a>
+                </div>
+                <div class="shopBlock__rigth carWrap">
+                        <img class="car" src="../images/car.png" alt="OldCar">
+            </div>
+            </section>
+
+            <section class="featuredProductsBlock">
+                <h2 class="featuredProducts__title title">Featured Products</h2>
+                <div class="featuredProducts__wrapper">
+                    <a href="" class="featuredProducts__wrapper_buttons leftBtn">
+                        <img src="../images/doubleArrowLeft.png" alt="buttonLeft" class="arrowImage">
+                    </a>
+                    <a href="#" class="featuredProducts__wrapper_buttons rightBtn">
+                        <img src="../images/doubleArrowRight.png" alt="buttonRight" class="arrowImage right">
+                    </a>
+                <div class="featuredProducts__items_wrapper"></div>
+            </div>
+            </section>
+            <section id="reviewsBlock">
+                <h2 class="reviewsBlock__title title">What customers say about us</h2>
+                <div class="reviewsBlock__content">
+                    <div class="reviewsBlock__content_left">
+                        <h3 class="reviewsBlock__content_left_title"></h3>
+                        <p class="reviewsBlock__content_left_text text"></p>
+                        <div class="reviewsBlock__content_left_grades"></div>
+                    </div>
+                    <div class="reviewsBlock__content_right">
+                        <img src="#" alt="clientPhoto" class="reviewsBlock__content_right_img">
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
+    </div>
 </body>
-
+<script src="./script.js" ></script>
 </html>
